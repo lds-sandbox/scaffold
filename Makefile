@@ -1,7 +1,10 @@
 install:
 	# upgrade installer included in venv
 	# and install required packages
-	pip install --upgrade pip -r requirements.txt	
+	pip install --upgrade pip -r requirements.txt
+
+install-azure:
+	pip install --upgrade pip -r requirements-azure.txt
 
 format:
 	# optional, formats code to standards (github.com/psf/black)
